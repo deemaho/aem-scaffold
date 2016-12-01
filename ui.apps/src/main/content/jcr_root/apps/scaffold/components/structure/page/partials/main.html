@@ -13,10 +13,12 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<div class="page__main" data-sly-use.main="main.js">
+<div data-sly-use.main="main.js">
+<nav class="navbar navbar-inverse navbar-fixed-top" data-sly-resource="topnav"></nav>
+<div class="container">
     <header class="page__header">
         <div class="page__logo" data-sly-resource="logo"></div>
-        <nav class="page__topnav" data-sly-resource="topnav"></nav>
+        
     </header>
 
     <div class="page__title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
@@ -25,4 +27,5 @@
     <footer class="page__footer">
         <p class="page__copyright">${"&copy; {0} Scaffold Site Site. All rights reserved." @ i18n, format=main.year, context='html'}</p>
     </footer>
+</div>
 </div>

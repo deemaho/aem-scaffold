@@ -2,11 +2,16 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
         cq:designPath="/etc/designs/scaffold"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2016-12-01T18:13:19.919-05:00"
+        cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="Scaffold Site"
-        sling:redirect="{Boolean}true"
+        sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/scaffold/en">
@@ -14,4 +19,6 @@
             <file/>
         </image>
     </jcr:content>
+    <fr/>
+    <en/>
 </jcr:root>
