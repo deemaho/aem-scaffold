@@ -2,4 +2,4 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:ClientLibraryFolder"
     categories="[scaffold.all]"
-    embed="[scaffold.site,scaffold.page,scaffold.topnav,scaffold.colctrl,scaffold.textimage]"/>
+    embed="[scaffold.site,scaffold.page,scaffold.topnav,scaffold.colctrl,scaffold.textimage,scaffold.homepage]"/>

@@ -13,8 +13,10 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<ul class="topnav" data-sly-use.topnav="topnav.js" data-sly-list="${topnav.items}">
-    <li class="topnav__item ${item.selected && 'topnav__item--selected'}">
-        <a class="topnav__link" href="${item.page.path}.html">${item.page.title}</a> 
-    </li>
-</ul>
+<div class="container">
+	<ul class="nav navbar-nav topnav" data-sly-use.topnav="topnav.js" data-sly-list="${topnav.items}">
+	    <li class="nav-item ${item.selected && 'active'}">
+	        <a class="nav-link" href="${item.page.path}.html">${item.page.title}</a> 
+	    </li>
+	</ul>
+</div>
