@@ -14,18 +14,19 @@
     limitations under the License.
 */-->
 <div data-sly-use.main="main.js">
-<nav class="navbar navbar-inverse navbar-fixed-top" data-sly-resource="topnav"></nav>
-<div class="container">
-    <header class="page__header">
-        <div class="page__logo" data-sly-resource="logo"></div>
-        
-    </header>
-
-    <div class="page__title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
-    <div class="page__par" data-sly-resource="par"></div>
-
-    <footer class="page__footer">
-        <p class="page__copyright">${"&copy; {0} Scaffold Site Site. All rights reserved." @ i18n, format=main.year, context='html'}</p>
+	<nav class="navbar navbar-static-top navbar-dark bg-inverse" data-sly-resource="topnav"></nav>
+	<div class="container">
+	    <header class="header">
+	        <div class="logo" data-sly-resource="logo"></div>
+	        
+	    </header>
+	
+	    <div class="title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
+	    <div class="par" data-sly-resource="par"></div>
+	</div>
+	<footer class="footer">
+    	<div class="container">
+        <p class="text-muted">${"&copy; {0} Scaffold Site Site. All rights reserved." @ i18n, format=main.year, context='html'}</p>
+    </div>
     </footer>
-</div>
 </div>

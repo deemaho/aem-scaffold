@@ -3766,7 +3766,7 @@ tbody.collapse.in {
 
 @media (min-width: 576px) {
   .navbar {
-    border-radius: 0.25rem;
+    border-radius: 0;
   }
 }
 
